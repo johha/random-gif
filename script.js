@@ -10,8 +10,8 @@ $(document).ready(function(){
             success: function(response) {
                 imgUrl = response.data.embed_url;
                 imgId = response.data.id;
-                console.log("https://media.giphy.com/media/${imgId}/giphy.gif");
-                $("#giphy-embed").attr("src", "https://media.giphy.com/media/"+imgId+"/giphy.gif");
+                $("#giphy-embed").attr("src", imgUrl);
+                // $("#giphy-embed").attr("src", "https://media.giphy.com/media/"+imgId+"/giphy.gif");
                 return false;
                 }, 
             error: function(e) {
