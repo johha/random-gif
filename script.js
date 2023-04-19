@@ -4,7 +4,7 @@ $(document).ready(function(){
         var imgUrl;
         var imgId;
         $.ajax ({
-            url: "https://api.giphy.com/v1/gifs/random?api_key=rE6WgDxZnwRdADR8M2Nv7ZKuA4nFjq49&tag=theoffice",
+            url: "https://api.giphy.com/v1/gifs/random?api_key=GML25hSunINGi6eDyXGGInxZuT3BiAYC&tag=theoffice",
             type: "GET",
             dataType: "json",
             success: function(response) {
