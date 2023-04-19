@@ -25,9 +25,9 @@ iframe {
 }
 
 
-.buttons {  
+.buttons {
+  width: 80em;
   display: flex;
-  justify-content: space-between;
   font-size: 1px;
 }
 
